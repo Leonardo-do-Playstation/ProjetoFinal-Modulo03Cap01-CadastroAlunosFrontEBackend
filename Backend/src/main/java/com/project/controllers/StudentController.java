@@ -25,11 +25,11 @@ public class StudentController {
 
     public StudentController() {
 
-        students.add(new Student(1, "Jonas Silva", "jonas.silva@email.com", "11987654321", 1, 1));
-        students.add(new Student(2, "Maria Souza", "maria.souza@email.com", "11976543210", 2, 3));
-        students.add(new Student(3, "João Pereira", "joao.pereira@email.com", "11965432109", 1, 2));
-        students.add(new Student(4, "Ana Costa", "ana.costa@email.com", "11954321098", 3, 2));
-        students.add(new Student(5, "Lucas Martins", "lucas.martins@email.com", "11943210987", 2, 3));
+        students.add(new Student(1, "Jonas Silva", "jonas.silva@email.com", "(11) 9876-5432", 1, 1));
+        students.add(new Student(2, "Maria Souza", "maria.souza@email.com", "(11) 9765-4321", 2, 3));
+        students.add(new Student(3, "João Pereira", "joao.pereira@email.com", "(11) 9654-3210", 1, 2));
+        students.add(new Student(4, "Ana Costa", "ana.costa@email.com", "(11) 9543-2109", 3, 2));
+        students.add(new Student(5, "Lucas Martins", "lucas.martins@email.com", "(11) 9432-1098", 2, 3));
 
     }
 
