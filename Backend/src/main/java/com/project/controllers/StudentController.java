@@ -1,5 +1,6 @@
 
 package com.project.controllers;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -47,7 +48,14 @@ public class StudentController {
 
     @PostMapping
     public ResponseEntity<Student> createStudent(@RequestBody Student student) {
+        int maxId = students.stream()
+                .mapToInt(Student::getId)
+                .max()
+                .orElse(0);
+
+        student.setId(maxId + 1);
         students.add(student);
+
         return ResponseEntity.status(HttpStatus.CREATED).body(student);
     }
 
