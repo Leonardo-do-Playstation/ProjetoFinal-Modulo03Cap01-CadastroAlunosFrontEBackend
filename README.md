@@ -37,15 +37,13 @@
 
 ---
 
-### 🔹 Para rodar:
-
+### 🔹 Para rodar backend:
 cd backend
 ./mvnw spring-boot:run
-
 ou
-
 mvn spring-boot:run
-🔹 Frontend
+
+🔹 Para rodar frontend
 cd frontend
 npm install
 ng serve
@@ -57,9 +55,6 @@ http://localhost:4200
 🔗 Comunicação entre Frontend e Backend
 
 O frontend consome a API REST do backend para realizar operações de CRUD (Create, Read, Update, Delete).
-
-📸 Demonstração
-
 
 👨‍💻 Autor
 
