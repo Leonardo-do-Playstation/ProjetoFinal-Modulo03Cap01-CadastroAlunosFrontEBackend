@@ -37,9 +37,8 @@
 
 ---
 
-### 🔹 Backend
+### 🔹 Para rodar:
 
-```bash
 cd backend
 ./mvnw spring-boot:run
 
